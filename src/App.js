@@ -6,6 +6,8 @@ import Marca from "./Marca";
 import Carro from "./Carro";
 import Tamanho from "./Tamanho";
 import List from "./List";
+import Evento from "./Evento";
+import Form from "./Form";
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
       <SayMyName nome="Davi" idade="26"/>
       <Carro ano="2021"/>
       <Tamanho altura="1.50" />
+      <Evento numero="5"/>
+      <Form />
     </div>
   );
 }
