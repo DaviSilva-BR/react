@@ -8,6 +8,7 @@ import Tamanho from "./Tamanho";
 import List from "./List";
 import Evento from "./Evento";
 import Form from "./Form";
+import Condicional from "./Condicional";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
   }
   return (
     <div>
+      <Condicional />
       {name + ' - '  +idade} <br />
       Soma: { sum(10,5) }
       <Pessoa />
